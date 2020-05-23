@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Set Gym</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        /* CSS Reset */
+        body {
+            color: white;
+            font-family: 'Baloo Da 2', cursive;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('img/bg2.jpg');
+            background-size: 1600px;
+            background-repeat: no-repeat;
+        }
+
+        .left {
+            position: absolute;
+            left: 26px;
+            top: -3px;
+            display: inline-block;
+            
+        }
+
+        .left img {
+            margin: -36px;
+            width: 198px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            line-height: 0px;
+            font-size: 18px;
+        }
+
+        .mid {
+            display: block;
+            width: 50%;
+            margin: 12px auto;
+          
+        }
+
+        .right {
+            position: absolute;
+            right: 32px;
+            top: 20px;
+            display: inline-block;
+           
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 21px;
+            font-size: 21px;
+        }
+
+        .navbar li a:active,
+        .navbar li a:hover {
+            color: tomato;
+            text-decoration: underline;
+            padding: 21px;
+            font-size: 21px;
+        }
+
+        .btn {
+            font-family: 'Baloo Da 2', cursive;
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 7px 14px;
+            border: 2px solid white;
+            border-radius: 10px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 177px 130px;
+            padding: 25px 27px;
+            width: 35%;
+            border-radius: 50px
+        }
+
+        .form input {
+            font-family: 'Baloo Da 2', cursive;
+            background-color: transparent;
+            text-align: center;
+            display: block;
+            width: 321px;
+            margin: 19px auto;
+            padding: 4px 25px;
+            border: 2px solid white;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        .container h2{
+            text-align: center;
+            
+        }
+        .container button{
+            display: block;
+            width: 71%;
+            margin: 31px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/logo.png" alt="">
+            <div>KAUSHIK FITNESS</div>
+        </div>
+
+        <!-- mid box for navigation bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="https://www.instagram.com/" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Center</a><a href="#"></a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">
+                Call Us Now
+            </button>
+            <button class="btn">
+                Email Us
+            </button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>JOIN THE BEST GYM OF CHAUMUHAN NOW</h2>
+        <form action="noaction.php">
+            <div class="form">
+                <input type="text" name="" placeholder="Enter Your Name">
+                <input type="text" name="" placeholder="Enter Your Age">
+                <input type="text" name="" placeholder="Enter Your Gender">
+                <input type="text" name="" placeholder="Enter Your Place">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
